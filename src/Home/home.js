@@ -1,5 +1,5 @@
 import React from 'react'
-import Collection from './Collection';
+import Collection from '..//Collection/Collection';
 import { useState,useEffect } from 'react';
 
 export default function Home() {

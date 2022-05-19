@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from 'react-elastic-carousel'
-import Card from './Card';
+import Card from '../MoviePage/Card';
 export default function Collection(props) {
 
   var items1=props.action;

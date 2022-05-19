@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import Collection from './Collection'
-import Search from './Search';
+import Collection from '../Collection/Collection'
+import Search from '../Search/Search';
 import { Link } from 'react-router-dom';
-
+import Image from '../images/pexels-photo-3131971.jpeg'
 export default function Navbar() {
 
   
@@ -45,7 +45,7 @@ export default function Navbar() {
     </div>
   </div>
 </nav>
-<div className="container-fluid text-white" style={{backgroundImage:"url('pexels-photo-3131971.jpeg')",height:"40vh"}}>
+<div className="container-fluid text-white" style={{backgroundImage:'url(' + Image + ')',height:"40vh"}}>
     <div className="d-flex flex-column align-items-start pt-5">
         <h1>
 Welcome to the Movie House</h1>

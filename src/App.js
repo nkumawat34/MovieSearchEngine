@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './navbar';
-import Footer from './footer';
-import Category from './category';
-import Search from './Search'
-import Home from './home';
+import Navbar from './Header/navbar';
+import Footer from './Footer/footer';
+import Category from './Category/category';
+import Search from './Search/Search'
+import Home from './Home/home';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import MoviePage from './MoviePage';
+import MoviePage from './MoviePage/MoviePage';
 
 function App() {
   return (
