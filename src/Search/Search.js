@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
 export default function Topcollection(props) {
 
     const [movies,setMovies]=useState([]);
@@ -32,7 +32,7 @@ export default function Topcollection(props) {
             <div class="card-body">
               <h5 class="card-title">{movie.Title}</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Read More</a>
+              <Link to="/moviepage" state={{movie:movie}} class="btn btn-primary">Read More</Link>
             </div>
           </div></div>
           )}):<>Loading ....................</>
