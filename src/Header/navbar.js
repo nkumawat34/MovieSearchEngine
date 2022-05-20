@@ -21,7 +21,7 @@ export default function Navbar() {
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item ms-3">
-          <Link to="/" class="nav-link active" aria-current="page" href="#">Home</Link>
+          <Link to="/MovieSearchEngine" class="nav-link active" aria-current="page">Home</Link>
         </li>
         <li class="nav-item ms-3">
         <div class="dropdown">
