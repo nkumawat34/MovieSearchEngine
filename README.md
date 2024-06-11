@@ -1,1 +1,6 @@
-It is movie search engine where movies are shown on frontend with the help of OMDI Api
+This project is a movie search engine that utilizes the OMDb (Open Movie Database) API to fetch and display movie details based on user queries.
+
+Features
+Search for movies by title
+Display movie details including title, poster, and summary
+User-friendly interface
